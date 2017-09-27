@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "KYTCustomAlerts.h"
 
 @interface ViewController ()
 
@@ -25,5 +26,21 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)createObject:(UIBarButtonItem *)sender {
+    [KYTCustomAlerts alertUserWithCreateMessage:self.view];
+}
+
+- (IBAction)readObject:(UIBarButtonItem *)sender {
+    [KYTCustomAlerts alertUserWithReadMessage:self.view];
+}
+
+- (IBAction)updateObject:(UIBarButtonItem *)sender {
+    [KYTCustomAlerts alertUserWithUpdateMessage:self.view];
+}
+
+- (IBAction)deleteObject:(UIBarButtonItem *)sender {
+    [KYTCustomAlerts alertUserWithDeleteMessage:self.view];
+    
+}
 
 @end
