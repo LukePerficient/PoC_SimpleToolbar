@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1694C3B12484637D446247820D4C81C1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */; };
+		446F9C161F867776000D54C9 /* TBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 446F9C151F867776000D54C9 /* TBUITests.m */; };
 		5B1505123E19F2DA3316D330881A8747 /* Pods-ToolBarExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A30BC688D2B7A6FEA4FD945238BEFB7 /* Pods-ToolBarExample-dummy.m */; };
 		8D67C5FE6922EA61F91C7E829297B08E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
 		CE81BF3E052C92FF75D9447C8A643998 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
@@ -32,6 +33,9 @@
 		0AC8DEF6D45672F71E7C591E6A9DAB45 /* Pods-ToolBarExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToolBarExampleTests-resources.sh"; sourceTree = "<group>"; };
 		2A30BC688D2B7A6FEA4FD945238BEFB7 /* Pods-ToolBarExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ToolBarExample-dummy.m"; sourceTree = "<group>"; };
 		43850C0F1CB69230CADBE13A2FE314B5 /* Toast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-prefix.pch"; sourceTree = "<group>"; };
+		446F9C131F867776000D54C9 /* TBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		446F9C151F867776000D54C9 /* TBUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBUITests.m; sourceTree = "<group>"; };
+		446F9C171F867776000D54C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AE3FA410D9B8B8257F082F34EF695EB /* Pods-ToolBarExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToolBarExampleTests-frameworks.sh"; sourceTree = "<group>"; };
 		4DBD6FED832E196465BCAB32AB8F1D6F /* Pods-ToolBarExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ToolBarExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -44,10 +48,10 @@
 		862DB8DF27D8AC8ED9B2B181E257F7AE /* Pods-ToolBarExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ToolBarExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8D7932F20A35D1E428465A3162E246DE /* Pods-ToolBarExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToolBarExample-acknowledgements.plist"; sourceTree = "<group>"; };
 		91D19CBEF4EC94B462AB24B445CD0A39 /* Toast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DC2A4BC26C7E96AECA7D91A65218E20 /* libPods-ToolBarExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ToolBarExample.a"; path = "libPods-ToolBarExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B25E6884B7C2517378899F251B103B75 /* libToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libToast.a; path = libToast.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0B03838D7130BBB8B99659524707F38 /* libPods-ToolBarExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ToolBarExampleTests.a"; path = "libPods-ToolBarExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DC2A4BC26C7E96AECA7D91A65218E20 /* libPods-ToolBarExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ToolBarExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25E6884B7C2517378899F251B103B75 /* libToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libToast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0B03838D7130BBB8B99659524707F38 /* libPods-ToolBarExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ToolBarExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4518F8188DC0A264C40CFA4357363E9 /* Pods-ToolBarExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToolBarExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D08206EECE97DDC764FADD35BA7EFBB1 /* Pods-ToolBarExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToolBarExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DA87CDF4BFC0A48127D3CE947C5B1EBA /* UIView+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "Toast/Toast/UIView+Toast.h"; sourceTree = "<group>"; };
@@ -63,6 +67,13 @@
 			files = (
 				E1C7B739092935C9E093882AF2BC4727 /* Foundation.framework in Frameworks */,
 				1694C3B12484637D446247820D4C81C1 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446F9C101F867776000D54C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +115,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		446F9C141F867776000D54C9 /* TBUITests */ = {
+			isa = PBXGroup;
+			children = (
+				446F9C151F867776000D54C9 /* TBUITests.m */,
+				446F9C171F867776000D54C9 /* Info.plist */,
+			);
+			path = TBUITests;
+			sourceTree = "<group>";
+		};
 		4EED7B87ED3AB02CBC380B79C45F37FA /* Toast */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,7 +131,6 @@
 				77623AA3D7FDD70F05FCB775D06E9F38 /* UIView+Toast.m */,
 				328A08D994481184C929D2CC9DEC6F29 /* Support Files */,
 			);
-			name = Toast;
 			path = Toast;
 			sourceTree = "<group>";
 		};
@@ -142,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				446F9C141F867776000D54C9 /* TBUITests */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				5ADF52BA933FB457DCC27EAA52C7ECF9 /* Pods */,
 				D1F2A9A72F3A51A43F0CFE376623B63B /* Products */,
@@ -188,6 +208,7 @@
 				9DC2A4BC26C7E96AECA7D91A65218E20 /* libPods-ToolBarExample.a */,
 				C0B03838D7130BBB8B99659524707F38 /* libPods-ToolBarExampleTests.a */,
 				B25E6884B7C2517378899F251B103B75 /* libToast.a */,
+				446F9C131F867776000D54C9 /* TBUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -206,6 +227,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		446F9C121F867776000D54C9 /* TBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 446F9C1A1F867776000D54C9 /* Build configuration list for PBXNativeTarget "TBUITests" */;
+			buildPhases = (
+				446F9C0F1F867776000D54C9 /* Sources */,
+				446F9C101F867776000D54C9 /* Frameworks */,
+				446F9C111F867776000D54C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TBUITests;
+			productName = TBUITests;
+			productReference = 446F9C131F867776000D54C9 /* TBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		6BDBCEB2E1E6DB6D297BEC6C7D63A195 /* Pods-ToolBarExample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19141A6D786D3702624446A4D6BFCC69 /* Build configuration list for PBXNativeTarget "Pods-ToolBarExample" */;
@@ -264,6 +302,12 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					446F9C121F867776000D54C9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -280,9 +324,20 @@
 				6BDBCEB2E1E6DB6D297BEC6C7D63A195 /* Pods-ToolBarExample */,
 				82C4B19D7EFB3035DB4AC8866669289F /* Pods-ToolBarExampleTests */,
 				E3148FE5C1079DDDFFF84AB99562B2B1 /* Toast */,
+				446F9C121F867776000D54C9 /* TBUITests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		446F9C111F867776000D54C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		362E3C1FB5FE1E1910A769636C32F7A0 /* Sources */ = {
@@ -291,6 +346,14 @@
 			files = (
 				DC03AAE546DD896B109E7DD1DFE0A36F /* Toast-dummy.m in Sources */,
 				CF99EEE4BB4F5A31FEB57EDC66EFEF78 /* UIView+Toast.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446F9C0F1F867776000D54C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446F9C161F867776000D54C9 /* TBUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +453,77 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
+		};
+		446F9C181F867776000D54C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = TBUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Perficient.TBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		446F9C191F867776000D54C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = TBUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Perficient.TBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
 		};
 		480EEBF5F9E59028ADDFAE132519EE11 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -581,6 +715,15 @@
 			buildConfigurations = (
 				3C566674B9389398A373DA3751E4B639 /* Debug */,
 				D2DE39327185BAAB550CAFE309B0974C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		446F9C1A1F867776000D54C9 /* Build configuration list for PBXNativeTarget "TBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446F9C181F867776000D54C9 /* Debug */,
+				446F9C191F867776000D54C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
